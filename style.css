@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    
+}
+
+html{
+    font-size: 100%; /* whatever is set by broser*/
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    background-color: #5C0F8C;
+}
+#box{
+    max-height: 65px;
+    border-style: solid;
+    padding-top: 100px; 
+}
+
+h1{
+    font-size: 2.5rem;
+    color: aliceblue; 
+
+}
+h2{
+    font-size: 1.25rem;
+    color: aliceblue; 
+
+}
+
+#wrapper{
+    max-width: 1200px; /* if viewport is smaller than this the width will still be 100%*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#title{
+    max-width: 360px;
+    position: relative; 
+	bottom:91px;
+    border-style: dotted;
+    border
+    text-align: center;
+    margin-left: 26.2px;
+    margin-right: 26.2px;
+    font-weight: 300;
+    background-color: #5C0F8C;
+    
+	
+}
+
+header{
+    background-color: #12005e;
+    height: 170px;
+    text-align: center;
+    
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#work img{ 
+    width: 100%
+}
+
+h3{
+    margin-left:15px;
+    text-align:left;
+    font-size: 2rem;
+    font-weight: 100;
+    color: aliceblue; 
+}
+
+.content-item{
+    padding-left:15px ; 
+    padding-right:15px ;
+    margin-bottom: 32px;
+    color: aliceblue;  
+}
+
+h4{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2rem;
+    color: aliceblue; 
+}
+
+p{
+    text-align: center; 
+}
+
+ul{
+    color: aliceblue;
+    padding-left: 2rem;
+}
+
+#contact{
+    text-align: center;
+    color: aliceblue;
+}
+
+h5{
+    font-weight: 100;
+    font-size: 2rem; 
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+}
+
+/* web version */
+@media(min-width:768px){
+    #content{ 
+        flex-direction: row
+    }
+    #work{
+        width: 75%;
+    }
+    #aboutme{
+        width: 25%;
+        margin-right: 30px;    
+    }
+    h1{
+    font-size: 2.5rem; 
+    }
+    h2{
+    font-size: 2rem; 
+    }
+}
